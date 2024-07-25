@@ -1,0 +1,40 @@
+html,body{
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    margin: 0;
+    margin-top: 0;
+    scroll-behavior: smooth;
+}
+
+.parallax{
+    height: 100%;
+    background-image: url('./images/steve_jobs.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+h1{
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.about{
+    height: 70%;
+    padding: 8em;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+}
+
+.parallax1{
+    height: 100%;
+    background-image: url('./images/steve_jobs_1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
